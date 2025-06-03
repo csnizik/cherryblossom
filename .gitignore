@@ -5,33 +5,33 @@ core
 
 
 # Ignore sensitive files
-sites/default/settings.*.php
-sites/*.services.yml
-sites/*.*.services.yml
+web/sites/default/settings.*.php
+web/sites/*.services.yml
+web/sites/*.*.services.yml
 
 
 # Ignore private files
-sites/*/files/private/
-sites/*/files/temporary/
-sites/*/files/sync/
-sites/*/files/config_*
+web/sites/*/files/private/
+web/sites/*/files/temporary/
+web/sites/*/files/sync/
+web/sites/*/files/config_*
 
 
 # Ignore contributed modules and themes
-sites/*/modules/contrib/
-sites/*/themes/contrib/
-modules/contrib/
-themes/contrib/
+web/sites/*/modules/contrib/
+web/sites/*/themes/contrib/
+web/modules/contrib/
+web/themes/contrib/
 
 
 # Ignore default files folder
-sites/default/files/
+web/sites/default/files/
 
 
 # Ignore cache and temporary files
-sites/*/files/css/
-sites/*/files/js/
-sites/*/files/php/
+web/sites/*/files/css/
+web/sites/*/files/js/
+web/sites/*/files/php/
 
 
 # Ignore generated and compiled files
