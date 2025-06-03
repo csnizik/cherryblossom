@@ -8,5 +8,26 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@alpinejs/anchor": "^3.14.9",
+    "@alpinejs/csp": "^3.14.9",
+    "@alpinejs/focus": "^3.14.9",
+    "@alpinejs/mask": "^3.14.9",
+    "@fontsource-variable/open-sans": "^5.2.5",
+    "@fontsource-variable/public-sans": "^5.2.5",
+    "@fontsource-variable/roboto-mono": "^5.2.6",
+    "@fontsource-variable/source-sans-3": "^5.2.8",
+    "@fontsource/merriweather": "^5.2.8",
+    "@iconify-json/fa6-brands": "^1.2.5",
+    "@iconify-json/material-symbols": "^1.2.23",
+    "@iconify/tailwind": "^1.2.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "parcel": "^2.15.2",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "tailwindcss-animate": "^1.0.7"
+  }
 }
