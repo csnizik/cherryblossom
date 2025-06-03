@@ -47,3 +47,4 @@ web/sites/*/files/php/
 
 # Ignore Node.js dependency folder
 **/node_modules/
+

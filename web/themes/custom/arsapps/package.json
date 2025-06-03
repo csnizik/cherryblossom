@@ -5,22 +5,23 @@
   "scripts": {
     "dev": "parcel watch",
     "build": "parcel build"
-  },"targets": {
-  "js": {
-    "source": "src/assets/js/main.js",
-    "distDir": "build/js"
   },
-  "css": {
-    "source": "src/assets/css/styles.css",
-    "distDir": "build/css"
-  }
-},
-"browserslist": [
-  "> 0.5%",
-  "last 2 versions",
-  "IE 11",
-  "not dead"
-],
+  "targets": {
+    "js": {
+      "source": "src/assets/js/main.js",
+      "distDir": "build/js"
+    },
+    "css": {
+      "source": "src/assets/css/styles.css",
+      "distDir": "build/css"
+    }
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "IE 11",
+    "not dead"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -45,5 +46,8 @@
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
     "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8"
   }
 }
