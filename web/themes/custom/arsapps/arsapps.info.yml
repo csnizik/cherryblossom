@@ -1,0 +1,6 @@
+name: ARS Apps Theme
+type: theme
+base theme: stable9
+description: 'Basic theme for ARS Apps site'
+package: Custom
+core_version_requirement: ^11
