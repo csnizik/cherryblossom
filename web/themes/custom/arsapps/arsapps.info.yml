@@ -1,6 +1,8 @@
 name: ARS Apps Theme
 type: theme
-base theme: stable9
-description: 'Basic theme for ARS Apps site'
-package: Custom
 core_version_requirement: ^11
+base theme: stable9
+description: 'USWDS + Tailwind powered theme'
+package: Custom
+libraries:
+  - arsapps/global
